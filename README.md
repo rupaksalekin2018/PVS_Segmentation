@@ -1,4 +1,3 @@
-````markdown
 # 3D Perivascular Space Segmentation with UNet++
 
 This project implements a deep learning pipeline for the **3D semantic segmentation of Perivascular Spaces (PVS)** in T2-weighted fMRI/MRI data. It utilizes the **MONAI** framework for medical image processing and **Segmentation Models PyTorch 3D** for the architecture.
