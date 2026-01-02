@@ -102,3 +102,73 @@ This project relies on `monai` and `segmentation_models_pytorch_3d`. Please refe
 
 ```
 ```
+
+## 3D Multi-Plane Segmentation Analysis Results
+
+This section presents the performance metrics and visual results for the 3D multi-plane segmentation model. The analysis includes aggregate statistics across all test subjects and detailed visualizations for individual subjects.
+
+### Aggregate Performance Metrics
+
+The following table summarizes the overall performance of the segmentation model across the test dataset. The metrics include the mean and standard deviation for Dice Score, IoU (Intersection over Union), Precision, and Recall.
+
+| Metric | Mean | Standard Deviation |
+| :--- | :--- | :--- |
+| **Dice Score** | 0.6073 | 0.0395 |
+| **IoU Score** | 0.4372 | 0.0408 |
+| **Precision** | 0.6225 | 0.0392 |
+| **Recall** | 0.5951 | 0.0554 |
+
+---
+
+### Individual Subject Analysis
+
+Visualizations for each test subject display the segmentation results across three anatomical planes: Axial, Coronal, and Sagittal. Each set includes:
+1.  **Original Image:** The raw MRI scan slice.
+2.  **Ground Truth:** The manually annotated segmentation (Red).
+3.  **Prediction:** The model's predicted segmentation (Green).
+
+#### Subject 000
+**Metrics:**
+* Dice Score: 0.6149
+* IoU Score: 0.4440
+* Precision: 0.6519
+* Recall: 0.5819
+
+![Subject 000 Analysis](0.png)
+
+#### Subject 001
+**Metrics:**
+* Dice Score: 0.6384
+* IoU Score: 0.4688
+* Precision: 0.6067
+* Recall: 0.6735
+
+![Subject 001 Analysis](1.png)
+
+#### Subject 002
+**Metrics:**
+* Dice Score: 0.6651
+* IoU Score: 0.4983
+* Precision: 0.6909
+* Recall: 0.6412
+
+![Subject 002 Analysis](2.png)
+
+#### Subject 003
+**Metrics:**
+* Dice Score: 0.5506
+* IoU Score: 0.3799
+* Precision: 0.5564
+* Recall: 0.5450
+
+![Subject 003 Analysis](3.png)
+
+#### Subject 004
+**Metrics:**
+* Dice Score: 0.5520
+* IoU Score: 0.3812
+* Precision: 0.5681
+* Recall: 0.5367
+
+![Subject 004 Analysis](4.png)
+
