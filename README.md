@@ -128,47 +128,22 @@ Visualizations for each test subject display the segmentation results across thr
 3.  **Prediction:** The model's predicted segmentation (Green).
 
 #### Subject 000
-**Metrics:**
-* Dice Score: 0.6149
-* IoU Score: 0.4440
-* Precision: 0.6519
-* Recall: 0.5819
 
 ![Subject 000 Analysis](0.png)
 
 #### Subject 001
-**Metrics:**
-* Dice Score: 0.6384
-* IoU Score: 0.4688
-* Precision: 0.6067
-* Recall: 0.6735
 
 ![Subject 001 Analysis](1.png)
 
 #### Subject 002
-**Metrics:**
-* Dice Score: 0.6651
-* IoU Score: 0.4983
-* Precision: 0.6909
-* Recall: 0.6412
 
 ![Subject 002 Analysis](2.png)
 
 #### Subject 003
-**Metrics:**
-* Dice Score: 0.5506
-* IoU Score: 0.3799
-* Precision: 0.5564
-* Recall: 0.5450
 
 ![Subject 003 Analysis](3.png)
 
 #### Subject 004
-**Metrics:**
-* Dice Score: 0.5520
-* IoU Score: 0.3812
-* Precision: 0.5681
-* Recall: 0.5367
 
 ![Subject 004 Analysis](4.png)
 
