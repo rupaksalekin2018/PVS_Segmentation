@@ -6,7 +6,7 @@ The pipeline is designed to handle NIfTI (`.nii`, `.nii.gz`) formats, perform ro
 
 ---
 
-## 🌟 Key Features
+## 🌟 Key Features Includes
 
 * **Architecture:** 3D UNet++ with a pre-trained **EfficientNet-B7** encoder.
 * **Hybrid Loss Function:** Combines **Binary Cross Entropy (BCE)** and **Dice Loss** for improved boundary delineation.
